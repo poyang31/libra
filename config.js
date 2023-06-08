@@ -8,7 +8,7 @@ const { existsSync } = require("node:fs");
  * Load configs from system environment variables.
  */
 function runLoader() {
-  const dotenvPath = pathJoin(__dirname, "..", ".env");
+  const dotenvPath = pathJoin(__dirname, ".env");
 
   const isDotEnvFileExists = existsSync(dotenvPath);
   const isCustomDefined = get("APP_CONFIGURED") === "1";
