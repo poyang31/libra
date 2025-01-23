@@ -1,0 +1,34 @@
+# App config files
+.env
+credentials.json
+
+# Finder config file
+.DS_Store
+
+# Temporary files
+dump_temp.sql
+
+# Directories
+.nyc_output
+coverage
+node_modules
+ssl_keys
+dist
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Lock file
+package-lock.json
